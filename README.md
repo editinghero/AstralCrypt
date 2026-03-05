@@ -2,6 +2,11 @@
 
 Client-side encryption tool for Notion exports and sensitive files.
 
+## Links
+https://astralcrypt.pages.dev/
+or
+https://notion.darkphoton.in
+/
 ## Features
 
 - Encrypt HTML files, ZIP archives, and PDFs
