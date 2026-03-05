@@ -71,8 +71,6 @@ Copy and paste these HTML codes into Notion using the "Embed" block:
    - Add the "Decrypt ZIP" button using Embed block
    - Click the button to decrypt and view
 
-[Screenshot: Add your screenshot here]
-
 ## Security
 
 - All encryption/decryption happens locally in your browser
@@ -98,10 +96,10 @@ wrangler login
 ```bash
 npm run build
 cd apps/portal
-wrangler pages deploy dist --project-name=astralcrypt
+wrangler pages deploy dist --project-name=yourname
 ```
 
-Your app will be available at `https://astralcrypt.pages.dev`
+Your app will be available at `https://yourname.pages.dev`
 
 ### GitHub
 
