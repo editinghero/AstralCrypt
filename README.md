@@ -43,23 +43,22 @@ You can embed decrypt buttons directly in Notion pages. This allows you to:
 4. Click the button to open the decryption page
 
 ### Embed Buttons
+Copy and paste these link Notion using the "Button" block:
+<div align="center">
+  <img  src="https://github.com/user-attachments/assets/5fbd9325-5819-4d84-8319-9c2598f53cc1" width="280" alt="button block" />
+  <img  src="https://github.com/user-attachments/assets/18feea5d-96e0-4a5f-8842-f95e99317951" width="280" alt="select link" />
+</div>
 
-Copy and paste these HTML codes into Notion using the "Embed" block:
+Select the open page,form and url and enter the url from here -
 
 #### HTML Decrypt Button
-```html
-<a href="https://astralcrypt.pages.dev/#/viewer/html" target="_blank" style="display:inline-block;padding:8px 16px;background:#2383E2;color:#fff;text-decoration:none;border-radius:6px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:14px;font-weight:500;">Decrypt HTML</a>
-```
+https://astralcrypt.pages.dev/#/viewer/html
 
 #### ZIP Decrypt Button
-```html
-<a href="https://astralcrypt.pages.dev/#/viewer/zip" target="_blank" style="display:inline-block;padding:8px 16px;background:#2383E2;color:#fff;text-decoration:none;border-radius:6px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:14px;font-weight:500;">Decrypt ZIP</a>
-```
+https://astralcrypt.pages.dev/#/viewer/zip
 
 #### PDF Decrypt Button
-```html
-<a href="https://astralcrypt.pages.dev/#/viewer/pdf" target="_blank" style="display:inline-block;padding:8px 16px;background:#2383E2;color:#fff;text-decoration:none;border-radius:6px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:14px;font-weight:500;">Decrypt PDF</a>
-```
+https://astralcrypt.pages.dev/#/viewer/pdf
 
 ### Example Workflow in Notion
 
