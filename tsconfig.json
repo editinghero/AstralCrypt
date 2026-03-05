@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "paths": {
+      "@notion-lock/crypto": ["./packages/crypto/src/index.ts"],
+      "@notion-lock/file-format": ["./packages/file-format/src/index.ts"],
+      "@notion-lock/zip": ["./packages/zip/src/index.ts"],
+      "@notion-lock/security": ["./packages/security/src/index.ts"],
+      "@notion-lock/renderer": ["./packages/renderer/src/index.ts"],
+      "@notion-lock/ui": ["./packages/ui/src/index.ts"]
+    }
+  },
+  "include": ["apps/**/*", "packages/**/*"],
+  "references": [
+    { "path": "./tsconfig.node.json" }
+  ]
+}

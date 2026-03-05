@@ -1,0 +1,22 @@
+{
+  "name": "notion-lock",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=apps/portal",
+    "build": "npm run build --workspace=apps/portal",
+    "preview": "npm run preview --workspace=apps/portal",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.8",
+    "vitest": "^1.0.4"
+  }
+}

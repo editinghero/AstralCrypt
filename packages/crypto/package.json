@@ -1,0 +1,16 @@
+{
+  "name": "@notion-lock/crypto",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./src/index.ts",
+  "dependencies": {
+    "libsodium-wrappers": "^0.7.13"
+  },
+  "devDependencies": {
+    "@types/libsodium-wrappers": "^0.7.14",
+    "fast-check": "^3.14.0",
+    "vitest": "^1.0.4",
+    "@vitest/browser": "^1.0.4",
+    "playwright": "^1.40.0"
+  }
+}

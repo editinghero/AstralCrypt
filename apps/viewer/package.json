@@ -1,0 +1,25 @@
+{
+  "name": "@notion-lock/viewer",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@notion-lock/crypto": "*",
+    "@notion-lock/file-format": "*",
+    "@notion-lock/zip": "*",
+    "@notion-lock/security": "*",
+    "@notion-lock/renderer": "*",
+    "@notion-lock/ui": "*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1"
+  }
+}

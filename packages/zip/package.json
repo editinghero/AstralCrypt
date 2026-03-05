@@ -1,0 +1,12 @@
+{
+  "name": "@notion-lock/zip",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./src/index.ts",
+  "dependencies": {
+    "jszip": "^3.10.1"
+  },
+  "devDependencies": {
+    "@types/jszip": "^3.4.1"
+  }
+}
