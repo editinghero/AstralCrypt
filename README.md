@@ -13,7 +13,13 @@ https://notion.darkphoton.in
 - Decrypt and view encrypted files
 - All encryption happens in your browser
 - No data is sent to any server
-- Strong encryption: XChaCha20-Poly1305 + Argon2id
+- Strong encryption: PBKDF2-SHA-256
+100,000 iterations
+32-byte key
+AES-256-GCM
+16-byte salt
+12-byte nonce
+16-byte authentication tag
 
 ## Usage
 
