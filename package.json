@@ -8,9 +8,9 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "npm run dev --workspace=apps/portal",
-    "build": "npm run build --workspace=apps/portal",
-    "preview": "npm run preview --workspace=apps/portal",
+    "dev": "pnpm run dev --workspace=apps/portal",
+    "build": "pnpm run build --workspace=apps/portal",
+    "preview": "pnpm run preview --workspace=apps/portal",
     "test": "vitest"
   },
   "devDependencies": {
@@ -18,5 +18,6 @@
     "typescript": "^5.3.3",
     "vite": "^5.0.8",
     "vitest": "^1.0.4"
-  }
+  },
+  "packageManager": "pnpm@10.12.4"
 }
